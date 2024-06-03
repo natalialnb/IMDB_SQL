@@ -63,8 +63,6 @@ IGNORE 1 ROWS;
   
 GREATEST(): Compara todos os valores fornecidos dentro dos parênteses.
 
-Neste caso, os valores são as médias das avaliações dadas por diferentes grupos demográficos (homens e mulheres em várias faixas etárias).
-
 
 - Criar Ranking:
   
