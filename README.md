@@ -1,6 +1,9 @@
-A Internet Movie Database (IMDB) é uma base de dados abrangente que contém informações sobre séries, filmes, música e games, além de críticas e avaliações dos usuários. 
+# A Internet Movie Database (IMDB) é uma base de dados abrangente que contém informações sobre séries, filmes, música e games, além de críticas e avaliações dos usuários. 
+
 Após um mês de curso, onde aprendi mais sobre MySQL, fui desafiada pela Jump Star a resolver um case utilizando dados do IMDB.
+
 Além de criar a base, as tabelas e trazer todos os dados, tive que responder as questões abaixo: 
+
 1 - Gerar um relatório contendo os 10 filmes mais lucrativos de todos os tempos, e identificar em qual faixa de idade/gênero eles foram mais bem avaliados.
 2 - Quais os gêneros que mais aparecem entre os Top 10 filmes mais bem avaliados de cada ano, nos últimos 10 anos.
 3 - Quais os 50 filmes com menor lucratividade ou que deram prejuízo, nos últimos 30 anos. Considerar apenas valores em dólar ($).
@@ -9,10 +12,11 @@ Além de criar a base, as tabelas e trazer todos os dados, tive que responder as
 6 - Gerar um relatório contendo a duração média de 5 gêneros a sua escolha.
 7 - Gerar um relatório sobre os 5 filmes mais lucrativos de um ator/atriz(que podemos filtrar), trazendo o nome, ano de exibição, e Lucro obtido. Considerar apenas valores em dólar($).
 8 - Baseado em um filme que iremos selecionar, trazer um relatório contendo quais os atores/atrizes participantes, e pra cada ator trazer um campo com a média de avaliação da crítica dos últimos 5 filmes em que esse ator/atriz participou.
-9 - Gerar mais duas análises a sua escolha, baseado nessas tabelas (em uma delas deve incluir a análise exploratória de dois campos, um quantitativo e um qualitativo, respectivamente).![image](https://github.com/natalialnb/IMDB_SQL/assets/103899007/5afba6aa-864c-4dc6-867b-50a73794a82e)
-Segue algumas funções diferentes utilizadas na resolução do meu case:
+9 - Gerar mais duas análises a sua escolha, baseado nessas tabelas (em uma delas deve incluir a análise exploratória de dois campos, um quantitativo e um qualitativo, respectivamente)
 
-- Para importar os dados dos CSV após criar as tabelas:
+## Segue algumas funções diferentes utilizadas na resolução do meu case:
+
++ Para importar os dados dos CSV após criar as tabelas:
 LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.1/Uploads/CASE_SQL/CaseSQL_names.csv"
 INTO TABLE CaseSQL_names
 FIELDS TERMINATED BY ','
