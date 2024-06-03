@@ -2,7 +2,7 @@
 
 A Internet Movie Database (IMDB) é uma base de dados abrangente que contém informações sobre séries, filmes, músicas e games, além de críticas e avaliações dos usuários. 
 
-Após um mês de curso, onde aprendi mais sobre MySQL, fui desafiada pela Jump Star a resolver um case utilizando dados do IMDB.
+Após um mês de curso, onde aprendi mais sobre MySQL, fui desafiada pela Jump Start a resolver um case utilizando dados do IMDB.
 
 Além de criar a base, as tabelas e trazer todos os dados, tive que responder as questões abaixo: 
 
