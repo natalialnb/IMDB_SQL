@@ -4,7 +4,7 @@ A Internet Movie Database (IMDB) é uma base de dados abrangente que contém inf
 
 Após um mês de curso, onde aprendi mais sobre MySQL, fui desafiada pela Jump Start a resolver um case utilizando dados do IMDB.
 
-Além de criar a base, as tabelas e trazer todos os dados, tive que responder as questões abaixo: 
+Além de criar o banco, as tabelas e trazer todos os dados, tive que responder as questões abaixo: 
 
 1 - Gerar um relatório contendo os 10 filmes mais lucrativos de todos os tempos, e identificar em qual faixa de idade/gênero eles foram mais bem avaliados.
 
