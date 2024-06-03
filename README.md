@@ -42,6 +42,7 @@ IGNORE 1 ROWS;
 
 - SUBSTRING_INDEX(): É uma função que pega uma parte específica de uma string, baseada em um separador específico. EX: ' R$ 10000" . No caso, estamos usando um espaço (' ') como separador na coluna.
 
+
 - ROUND(GREATEST(
   
             males_0age_avg_vote,
@@ -66,11 +67,10 @@ IGNORE 1 ROWS;
 GREATEST(): Compara todos os valores fornecidos dentro dos parênteses.
 
 
-- Criar Ranking:
-  
-  ROW_NUMBER() OVER (PARTITION BY year ORDER BY votes DESC, avg_vote DESC) AS `rank`
+- ROW_NUMBER() OVER (PARTITION BY year ORDER BY votes DESC, avg_vote DESC) AS `rank` -- criar um ranking.
 
- - TIME_FORMAT(SEC_TO_TIME(AVG(duration * 60)),'%H:%i:%s') AS Duração_média
+
+- TIME_FORMAT(SEC_TO_TIME(AVG(duration * 60)),'%H:%i:%s') AS Duração_média
 
 Sec_to_time: A função retorna uma string no formato de tempo 'HH:MM'.
 
