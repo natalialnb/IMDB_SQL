@@ -24,7 +24,7 @@ Além de criar a base, as tabelas e trazer todos os dados, tive que responder as
 
 ## Segue algumas funções diferentes utilizadas na resolução do meu case:
 
-+ Para importar os dados dos CSV após criar as tabelas
+- Para importar os dados dos CSV após criar as tabelas
 
 LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.1/Uploads/CASE_SQL/CaseSQL_names.csv"
 
@@ -40,8 +40,7 @@ IGNORE 1 ROWS;
 
 - SUBSTRING_INDEX(): É uma função que pega uma parte específica de uma string, baseada em um separador específico. EX: ' R$ 10000" . No caso, estamos usando um espaço (' ') como separador na coluna.
 
-- ROUND(
-        GREATEST(
+- ROUND(GREATEST(
   
             males_0age_avg_vote,
   
@@ -62,9 +61,7 @@ IGNORE 1 ROWS;
         ), 2
 			) AS Melhor_avaliação,
   
-GREATEST(...):
-
-Compara todos os valores fornecidos dentro dos parênteses.
+GREATEST(): Compara todos os valores fornecidos dentro dos parênteses.
 
 Neste caso, os valores são as médias das avaliações dadas por diferentes grupos demográficos (homens e mulheres em várias faixas etárias).
 
