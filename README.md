@@ -1,4 +1,6 @@
-# A Internet Movie Database (IMDB) é uma base de dados abrangente que contém informações sobre séries, filmes, música e games, além de críticas e avaliações dos usuários. 
+# Análise da Base IMDB usando MySQL
+
+A Internet Movie Database (IMDB) é uma base de dados abrangente que contém informações sobre séries, filmes, músicas e games, além de críticas e avaliações dos usuários. 
 
 Após um mês de curso, onde aprendi mais sobre MySQL, fui desafiada pela Jump Star a resolver um case utilizando dados do IMDB.
 
@@ -22,7 +24,7 @@ Além de criar a base, as tabelas e trazer todos os dados, tive que responder as
 9 - Gerar mais duas análises a sua escolha, baseado nessas tabelas (em uma delas deve incluir a análise exploratória de dois campos, um quantitativo e um qualitativo, respectivamente)
 
 
-## Segue algumas funções diferentes utilizadas na resolução do meu case:
+<strong> Segue algumas funções diferentes utilizadas na resolução do meu case:</strong>
 
 - Para importar os dados dos CSV após criar as tabelas
 
